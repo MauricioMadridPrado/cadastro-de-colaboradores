@@ -1,0 +1,19 @@
+tr,
+th,
+td,
+tr {
+  border: 1px solid black;
+  padding: 1em 2em;
+}
+
+.quadroDeColaboradores__container {
+    box-shadow: 0 0 0.5em var(--sombra-escura);
+}
+.quadroDeColaboradores {
+}
+.quadroDeColaboradores_cabecalho {
+    background: var(--fundo-escuro);
+    color: var(--cor-marcacao)
+}
+.quadroDeColaboradores_corpo {
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style/style.css">
+    <title>Cadastro de colaboradores</title>
+</head>
+<body>
+    <header class="cabecalho" id="cabecalho">  
+        <h1 class="cabecalho__titulo">Bem vindo ao cadastro de colaboradores!</h1>
+        <nav class="cabecalho__navegacao">
+            <ul id="navegacao" class="cabecalho__navegacao__lista">
+
+            </ul>
+        </nav>
+    </header>
+    <main class="principal">
+        <section class="container__formulario">
+            <form id="formulario" class="formulario">
+                <label class="rotulo__entrada__formulario" " for="nome">Nome</label>
+                <input type="text" id="nome" class="entrada__formulario">
+                <label class="rotulo__entrada__formulario" " for="cpf">CPF</label>
+                <input type="text" id="cpf" class="entrada__formulario">
+                <label class="rotulo__entrada__formulario" " for="cpf">RG</label>
+                <input type="text" id="rg" class="entrada__formulario">
+                <label class="rotulo__entrada__formulario" " for="telefone">Telefone</label>
+                <input type="text" id="telefone" class="entrada__formulario">
+                <label class="rotulo__entrada__formulario" " for="email">Email</label>
+                <input type="email" id="email" class="entrada__formulario">
+                <button id="botao__enviar" class="botao__enviar">
+                    Enviar formulário
+                </button>
+            </form>
+        </section>
+        <footer class="rodape" id="rodape">
+            <p class="rodape__texto">Empresa I.N.E.U.E, sempre preocupada com seus clientes</p>
+        </footer>
+    </main>
+
+    <script src="../app/main.js" type="module"></script>
+</body>
+</html>

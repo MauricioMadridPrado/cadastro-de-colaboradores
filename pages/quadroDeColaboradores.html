@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../style/style.css" />
+    <title>Quadro de colaboradores</title>
+  </head>
+  <body>
+    <header class="cabecalho" id="cabecalho">
+      <h1 class="cabecalho__titulo">Quadro de colaboradores</h1>
+      <nav class="cabecalho__navegacao">
+        <ul id="navegacao" class="cabecalho__navegacao__lista"></ul>
+      </nav>
+    </header>
+    <main class="principal">
+      <div class="quadroDeColaboradores__container__pesquisa">
+        <label class="quadroDeColaboradores__rotulo for="pesquisa">Pesquisa</label>
+        <input class="quadroDeColaboradores__entrada name="pesquisa" type="text" placeholder="Digite o nome do colaborador">
+      </div>
+      <section id="quadroDeColaboradores__container" class="quadroDeColaboradores__container"> 
+        <table id="quadroDeColaboradores" class="quadroDeColaboradores">
+          <tr id="quadroDeColaboradores_cabecalho" class="quadroDeColaboradores_cabecalho">
+            <th>Nome</th>
+            <th>CPF</th>
+            <th>RG</th>
+            <th>Telefone</th>
+            <th>Email</th>
+          </tr>
+          
+          
+        </table>
+      </section>
+
+    </main>
+    <footer class="rodape" id="rodape"></footer>
+    <script src="../app/main.js" type="module"></script>
+  </body>
+</html>

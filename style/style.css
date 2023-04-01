@@ -1,0 +1,44 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Alkatra:wght@400;700&display=swap");
+@import url("./login.css");
+@import url("cabecalho.css");
+@import url("formulario.css");
+@import url("quadroDeColaboradores.css");
+@import url("rodape.css");
+:root {
+  --fonte-principal: "Alkatra", cursive;
+  --fonte-tamanho1: 1rem;
+  --fonte-tamanho2: 1.25rem;
+  --fonte-tamanho3: 1.5rem;
+  --fonte-tamanho4: 4rem;
+  --cor-letra-texto: #000;
+  --cor-fundo: #e3ccae;
+  --cor-titulos: #262a56;
+  --cor-marcacao: #b8621b;
+  --sombra-escura: rgba(0, 0, 0, 0.3);
+  --sombra-clara: rgba(255,255,255,0.3);
+  --fundo-escuro:rgba(0,0,0,0.04);
+  --fundo-claro:rgba(255,255,255,0.5);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: var(--cor-letra-texto);
+  background: var(--cor-fundo);
+  font-family: var( --fonte-principal);
+  width: 100vw -2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 4em;
+  margin: 1em;
+}
+
+.principal {
+}
+

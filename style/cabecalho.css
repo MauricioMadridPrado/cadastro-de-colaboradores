@@ -1,0 +1,25 @@
+.cabecalho {
+  text-align: center;
+}
+.cabecalho__titulo {
+  color: var(--cor-titulos);
+  font-size: var(--fonte-tamanho4);
+}
+.cabecalho__navegacao {
+}
+.cabecalho__navegacao__lista {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 1em;  
+}
+.cabecalho__navegacao__itens {
+}
+.cabecalho__navegacao__link {
+  padding: 0.5em 2em;
+  font-size: var(--fonte-tamanho2);
+  border: 2px solid black;
+  border-radius: 1em;
+  text-decoration: none;
+  color: var(--cor-letra-texto);
+}

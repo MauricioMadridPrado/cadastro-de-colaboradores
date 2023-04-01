@@ -1,0 +1,15 @@
+.login__container{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.login{
+    padding: 2.5em 4em;
+    font-size: var(--fonte-tamanho4);
+    border: none;
+    background: var(--fundo-escuro);
+    box-shadow: 0 0 0.5em var(--sombra-clara);
+}
