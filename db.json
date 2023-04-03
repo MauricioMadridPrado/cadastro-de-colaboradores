@@ -1,0 +1,40 @@
+{
+    "colaboradores":[ 
+    {
+        "nome":"Maurício Prado",
+        "cpf":"12345678988",
+        "rg":"213546798",
+        "telefone": 51987878787,
+        "email":"mauricio@mau.com"
+    },
+    {
+        "nome":"Felipe Ramos",
+        "cpf":"98765432122",
+        "rg":"7894561235",
+        "telefone": 51998765412,
+        "email":"felipe@mau.com"
+    },
+    {
+        "nome":"Fernanda Machado",
+        "cpf":"45678952133",
+        "rg":"9871236458",
+        "telefone": 519989988998,
+        "email":"fernanda@mau.com"
+    },
+    {
+        "nome":"Lucia Dias",
+        "cpf":"57913824655",
+        "rg":"7591346285",
+        "telefone": 519963258741,
+        "email":"lucia@mau.com"
+    },
+    {
+        "nome":"Tião Aluade",
+        "cpf":"47896512355",
+        "rg":"1236985475",
+        "telefone": 519798456215,
+        "email":"tiao@mau.com"
+    }
+]
+    
+}
