@@ -11,13 +11,12 @@ if (
   "http://127.0.0.1:5500/pages/quadroDeColaboradores.html"
 ) {
   criaColaboradorNoQuadro();
-}
-if (
-  window.location.href ===
-  "http://127.0.0.1:5500/pages/formularioDeCadastroDeColaboradores.html"
-) {
+} else {
+
   criaRodape();
   botao.addEventListener("click", (e) => {
     criandoColaborador(e);
   });
 }
+
+

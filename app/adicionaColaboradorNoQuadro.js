@@ -18,4 +18,4 @@ async function importaLista () {
   `;
     });
   }
-export default importaLista ();
+export default importaLista;
