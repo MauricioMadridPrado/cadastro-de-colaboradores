@@ -1,0 +1,22 @@
+.quadroDeColaboradores__container__pesquisa {
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.dropdown__rotulo {
+    font-size: var(--fonte-tamanho2);
+}
+.dropdown__input {
+    font-size: var(--fonte-tamanho1);
+    padding: 1em 3em;
+    background-color: transparent;
+    border: none;
+    box-shadow: 0 0 0.5em var(--sombra-escura);
+    border-radius: 0.5em 0.5em 0 0;
+}
+.dropdown__input:hover {
+    cursor: pointer;
+} 
+.dropdown__opcoes {
+}

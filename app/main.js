@@ -1,5 +1,6 @@
 import criandoColaborador from "./criandoColaborador.js";
 import criaNavegacao from "./criaNavegacao.js";
+import criaSelecaoColaborador from "./menuDropdown.js";
 import criaColaboradorNoQuadro from "./adicionaColaboradorNoQuadro.js";
 import criaRodape from "./criaRodape.js";
 export const colaboradores = [];
@@ -11,6 +12,8 @@ if (
   "http://127.0.0.1:5500/pages/quadroDeColaboradores.html"
 ) {
   criaColaboradorNoQuadro();
+  criaSelecaoColaborador();
+
 } else {
 
   criaRodape();
